@@ -1,0 +1,47 @@
+.detail {
+    margin: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.poster {
+    width: 21.5rem;
+    height: 30rem;
+}
+
+.description-section {
+    padding: 0 2rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-top: 1rem;
+}
+
+.release-date {
+    font-size: 1.1rem;
+}
+
+.overview {
+    font-size: 1.1rem;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+@media screen and (min-width: 1025px) {
+    .detail {
+        flex-direction: row;
+        margin: 3rem 0;
+    }
+
+    .poster {
+        width: 25rem;
+        height: 35rem;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+}

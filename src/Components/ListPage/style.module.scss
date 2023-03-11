@@ -1,0 +1,23 @@
+.list-page{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 3rem 0;
+}
+
+.poster{
+    width: 22rem;
+    height: 25rem;
+    margin: 0 auto;
+    transition: transform 450ms;
+}
+
+.poster:hover{
+    transform: scale(1.08);
+}
+
+@media screen and (min-width: 1025px) {
+    .poster{
+        width: 16rem;
+    }
+}
