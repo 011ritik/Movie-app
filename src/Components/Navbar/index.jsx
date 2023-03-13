@@ -30,7 +30,7 @@ const NetNavbar = () => {
     return (
         <Navbar className={style['NetNavbar']} expand='lg'>
             <Container fluid>
-                <Navbar.Brand as={Link} to='/'>
+                <Navbar.Brand as={Link} to='/' disabled>
                     <img src="/images/logo.png" alt="logo" className={style['logo']} />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
@@ -40,7 +40,7 @@ const NetNavbar = () => {
                         style={{ maxHeight: "100px" }}
                         navbarScroll
                     >
-                        <Nav.Link as={Link} to='/' className={style['nav-hyperlinks']}>Home</Nav.Link>
+                        <Nav.Link as={Link} to='/' disabled className={style['nav-hyperlinks']}>Home</Nav.Link>
                         <Nav.Link as={Link} to='/tv' className={style['nav-hyperlinks']}>TV Shows</Nav.Link>
                         <Nav.Link as={Link} to='/movie' className={style['nav-hyperlinks']}>
                             Movies

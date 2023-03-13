@@ -10,7 +10,7 @@ const HomePage = () => {
             <Banner fetchURL={requests.trending} />
             <RowSlide title='Trending Now' fetchURL={requests.trending} />
             <RowSlide title='Movies' fetchURL={requests.movie_list} />
-            <RowSlide title='TV Shows' fetchURL={requests.trending} />
+            <RowSlide title='TV Shows' fetchURL={requests.tv_list} />
             <RowSlide title='Discover' fetchURL={requests.discover} />
 
 
